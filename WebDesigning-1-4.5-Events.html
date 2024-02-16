@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>
+            JavaScript eVENTS
+        </title>
+    </head>
+
+    <body>
+        <script language="JavaScript" type="text/JavaScript">
+            function clickevent_1() {
+                document.write("Hello everyone, This is my first JavaScript Event")
+            }
+            function clickevent_2() {
+                document.write("Hello everyone, This is my second JavaScript Event")
+            }
+            function clickevent_3() {
+                document.write("Hello everyone, This is my third JavaScript Event")
+            }
+        </script>
+        <form>
+            <p onmouseover="clickevent_1()">See the Magic</p>
+            <input type="button" onclick="clickevent_2()" value="Clck here">
+            <input type="text" id="input" onkeydown="clickevent_3()">
+        </form>
+
+    </body>
+</html>
