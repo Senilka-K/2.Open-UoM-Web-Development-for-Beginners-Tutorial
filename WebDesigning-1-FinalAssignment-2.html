@@ -14,7 +14,7 @@
             <li><a href="file:///C:/Users/USER/Desktop/Senilka/Open%20UoM%20Course/Open-UoM-Web%20Development-Tutorial/WebDesigning-1-FinalAssignment.html">Home</a></li>
             <li><a href="file:///C:/Users/USER/Desktop/Senilka/Open%20UoM%20Course/Open-UoM-Web%20Development-Tutorial/WebDesigning-1-FinalAssignment-1.html">Planets</a></li>
             <li><a href="file:///C:/Users/USER/Desktop/Senilka/Open%20UoM%20Course/Open-UoM-Web%20Development-Tutorial/WebDesigning-1-FinalAssignment-2.html" class="active">Stars</a></li>
-            <li><a href="#">Moon</a></li>
+            <li><a href="file:///C:/Users/USER/Desktop/Senilka/Open%20UoM%20Course/Open-UoM-Web%20Development-Tutorial/WebDesigning-1-FinalAssignment-3.html">Moon</a></li>
         </ul>
 
         <h1>Stars</h1>
@@ -82,5 +82,24 @@
             </tr>
         </table>
 
+        <button id="myButton">For More Details</button>
+
+        <script>
+            var myButton = document.getElementById('myButton');
+    
+            myButton.addEventListener('click', function() {
+                window.open('https://en.wikipedia.org/wiki/Star', '_blank');
+            });
+        </script>
+
+        <button id="myButton_2">Home</button>
+
+        <script>
+            var myButton = document.getElementById('myButton_2');
+
+            myButton.addEventListener('click', function() {
+                window.location.href = 'file:///C:/Users/USER/Desktop/Senilka/Open%20UoM%20Course/Open-UoM-Web%20Development-Tutorial/WebDesigning-1-FinalAssignment.html';
+            });
+        </script>
     </body>
 </html>
